@@ -5,3 +5,9 @@ node_modules/
 !.env.example
 dist/
 .expo/
+
+# Nested User App exclusions
+user-appAgain copy 2/User-app/.env
+user-appAgain copy 2/User-app/node_modules/
+user-appAgain copy 2/User-app/dist/
+user-appAgain copy 2/User-app/.DS_Store
